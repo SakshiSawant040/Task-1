@@ -1,0 +1,76 @@
+
+.Home{
+    width: 100vw;
+    height: 100vh;
+    background:rgba(76,53,219,255);
+}
+.home-sideimg{
+    width: 50%;
+    height: 90vh;
+    background-image: url('../images/LineDesignImage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+     left: 51%; 
+}
+
+.home-main{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    margin-left: 80px;
+}
+
+.home-heading{
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 600px;
+    /* background-color: aqua; */
+}
+.head-div h1{
+    font-size: 70px;
+    font-weight: 150;
+
+}
+.head-div p{
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.start-btn{
+    width: 170px;
+    background: #ffffff;
+    margin-left: 20px;
+    border: none;
+}
+.start-btn {
+    margin-top: 25px;
+        font-size: 20px;
+        color: black;
+        height: 50px;
+        border-radius: 8px;
+    
+}
+
+.home-img1{
+    margin-top: 200px;
+    margin-left: 180px;
+    width: 550px;
+
+}
+.home-img1 img{
+    width: 500px;
+    height: 290px;
+
+} 
+
+.home-img2 img{
+    position: absolute;
+    top: 33%;
+    left: 70%;
+    width: 210px;
+    height: 370px; 
+} 

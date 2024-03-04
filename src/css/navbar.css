@@ -1,0 +1,85 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* position: absolute; */
+    left: 10%;
+    padding-top: 40px;
+}
+ /* .navbar{
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+
+} */
+.logo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo img{
+    height: 39px;
+    padding-right: 10px;
+}
+.logo h1{
+    font-weight: 100;
+    font-size: 39px;
+    text-align: center;
+    color: #ffffff;
+}
+.nav-options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left: 150px;
+}
+.nav-options li{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.nav-options li span{
+    padding-top: 5px;
+    margin: 10px;
+}
+.signIn{
+    padding-left: 200px;
+}
+.signIn-btn{
+    width: 92px;
+    background: transparent;
+    border: 2px #ffffff solid;
+    font-size: 18px;
+    
+}
+.signIn-btn,.contact-btn{
+    height: 55px;
+    border-radius: 10px;
+
+    
+}
+.contact-btn{
+
+    width: 170px;
+    font-weight:500;
+    background: #ffffff;
+    margin-left: 20px;
+    border: none;
+}
+.contact-btn h1{
+    font-size: 20px;
+    font-weight:6200;
+    font:bold;
+    color: black;
+} 
